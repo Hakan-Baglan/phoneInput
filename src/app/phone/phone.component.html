@@ -1,0 +1,9 @@
+
+<select name="cars" [formControl]="conutryControl" id="cars">
+    <option value="volvo"  *ngFor="let contry of countries" [value]="contry.id">{{contry.name}}</option>
+</select>
+<input type="tel" id="phone"
+ name="phone"
+ [imask]="{mask: getMask()}"
+ placeholder="(5xx) xxx xx xx"
+  >
