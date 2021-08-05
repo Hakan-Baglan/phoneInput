@@ -1,6 +1,6 @@
 
-<select name="cars" [formControl]="conutryControl" id="cars">
-    <option value="volvo"  *ngFor="let contry of countries" [value]="contry.id">{{contry.name}}</option>
+<select  [formControl]="conutryControl">
+    <option  *ngFor="let contry of countries" [value]="contry.id">{{contry.name}}</option>
 </select>
 <input type="tel" id="phone"
  name="phone"

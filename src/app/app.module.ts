@@ -23,6 +23,7 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     FormsModule,
     BrowserAnimationsModule,
     NgxIntlTelInputModule,
+    
 
   ],
   providers: [],
